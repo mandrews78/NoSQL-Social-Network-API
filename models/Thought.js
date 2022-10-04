@@ -1,4 +1,4 @@
-const { Schema, model, Types } = require('mongoose');
+const { Schema, model } = require('mongoose');
 const moment = require('moment');
 const reactionSchema = require('./Reaction');
 
@@ -8,7 +8,7 @@ const thoughtSchema = new Schema(
             type: String,
             required: true,
             minlength: 1,
-            maxlength: 200
+            maxlength: 200,
         },
         createdAt: {
             type: Date,
@@ -17,15 +17,15 @@ const thoughtSchema = new Schema(
         },
         username: {
             type: String,
-            required: true
+            required: true,
         },
         reactions: [reactionSchema],
 
     },
     {
         toJSON: {
-            virtual: true,
-            getters: true
+            // virtual: true,
+            getters: true,
         },
         id: false,
     }
