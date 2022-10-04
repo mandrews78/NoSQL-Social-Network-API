@@ -22,5 +22,12 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ## Demo
 Insert gif or link to demo
 
+## Technology
+- MongoDB
+- Mongoose
+- Node.js
+- Express.js
+- Moment.js
+
 ## Authors
 - [@mandrews78](https://www.github.com/mandrews78)
