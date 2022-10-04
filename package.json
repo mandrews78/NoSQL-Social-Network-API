@@ -1,0 +1,24 @@
+{
+  "name": "nosql-social-network-api",
+  "version": "1.0.0",
+  "description": "Developing a social network API, where users can share their thoughts, react to friend's thoughts, and create a friend list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandrews78/NoSQL-Social-Network-API.git"
+  },
+  "author": "mandrews78",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandrews78/NoSQL-Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/mandrews78/NoSQL-Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.4"
+  }
+}
